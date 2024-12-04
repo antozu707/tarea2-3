@@ -111,13 +111,13 @@ int main() {
 
     std::ifstream input("strings.txt");
     if (!input.is_open()) {
-        std::cerr << "Error al abrir el archivo datasets.txt" << std::endl;
+        std::cerr << "error" << std::endl;
         return 1;
     }
 
     std::ofstream output("results.txt");
     if (!output.is_open()) {
-        std::cerr << "Error al crear el archivo results.txt" << std::endl;
+        std::cerr << "error" << std::endl;
         return 1;
     }
 
@@ -125,7 +125,7 @@ int main() {
 
     while (std::getline(input, S1)) { 
         if (!std::getline(input, S2)) {
-            std::cerr << "Formato de archivo incorrecto. Faltan pares S2 para algunas S1." << std::endl;
+            std::cerr << "faltan pares S2 para S1" << std::endl;
             break;
         }
 
