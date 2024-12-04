@@ -1,0 +1,42 @@
+S1 
+S2 
+con Fuerza Bruta: 0
+tiempo ejecución FB: 0.000595248 seg
+con Programación Dinámica: 0
+tiempo ejecución DP: 0.00213259 seg
+----------------------------------------
+S1 nothing
+S2 
+con Fuerza Bruta: 34
+tiempo ejecución FB: 0.000479155 seg
+con Programación Dinámica: 34
+tiempo ejecución DP: 0.000730783 seg
+----------------------------------------
+S1 
+S2 something
+con Fuerza Bruta: 37
+tiempo ejecución FB: 0.000317058 seg
+con Programación Dinámica: 37
+tiempo ejecución DP: 0.000532879 seg
+----------------------------------------
+S1 sea
+S2 flea
+con Fuerza Bruta: 8
+tiempo ejecución FB: 0.0056974 seg
+con Programación Dinámica: 8
+tiempo ejecución DP: 0.00224413 seg
+----------------------------------------
+S1 form
+S2 from
+con Fuerza Bruta: 4
+tiempo ejecución FB: 0.000741949 seg
+con Programación Dinámica: 4
+tiempo ejecución DP: 0.000846768 seg
+----------------------------------------
+S1 btceugtsay
+S2 qcznywhsifnry
+con Fuerza Bruta: 35
+tiempo ejecución FB: 35.7598 seg
+con Programación Dinámica: 35
+tiempo ejecución DP: 0.000196155 seg
+----------------------------------------

@@ -1,0 +1,829 @@
+desc: (none)
+cmd: ./main
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=2320328
+mem_heap_B=72704
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=2427708
+mem_heap_B=72808
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=2432849
+mem_heap_B=74056
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=detailed
+n2: 74056 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4901939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n0: 1352 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=4
+#-----------
+time=2435785
+mem_heap_B=74472
+mem_heap_extra_B=192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=2438721
+mem_heap_B=74888
+mem_heap_extra_B=256
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=2441657
+mem_heap_B=75304
+mem_heap_extra_B=320
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=2444593
+mem_heap_B=75720
+mem_heap_extra_B=384
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=2447529
+mem_heap_B=76136
+mem_heap_extra_B=448
+mem_stacks_B=0
+heap_tree=detailed
+n3: 76136 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4901939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 2808 0x10DAD3: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+  n1: 2808 0x10D82B: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+   n1: 2808 0x10D5F1: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+    n1: 2808 0x10D196: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+     n2: 2808 0x10CAC0: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+      n1: 2496 0x10DD2C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+       n1: 2496 0x10DC16: void std::_Construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+        n1: 2496 0x10D99F: std::vector<int, std::allocator<int> >* std::__uninitialized_fill_n<false>::__uninit_fill_n<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+         n1: 2496 0x10D76D: std::vector<int, std::allocator<int> >* std::uninitialized_fill_n<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+          n1: 2496 0x10D3F3: std::vector<int, std::allocator<int> >* std::__uninitialized_fill_n_a<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > >&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+           n1: 2496 0x10CD89: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_fill_initialize(unsigned long, std::vector<int, std::allocator<int> > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+            n1: 2496 0x10C679: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::vector(unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+             n1: 2496 0x10BFE5: __static_initialization_and_destruction_0(int, int) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+              n1: 2496 0x10C1B2: _GLOBAL__sub_I_cost_insert (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+               n1: 2496 0x4ACCEBA: call_init (libc-start.c:145)
+                n1: 2496 0x4ACCEBA: __libc_start_main@@GLIBC_2.34 (libc-start.c:379)
+                 n0: 2496 0x10A724: (below main) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+      n0: 312 in 1 place, below massif's threshold (1.00%)
+ n0: 624 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=9
+#-----------
+time=2450874
+mem_heap_B=76968
+mem_heap_extra_B=488
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=2453502
+mem_heap_B=77384
+mem_heap_extra_B=552
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=2456438
+mem_heap_B=77800
+mem_heap_extra_B=616
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=2459374
+mem_heap_B=78216
+mem_heap_extra_B=680
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=2462310
+mem_heap_B=78632
+mem_heap_extra_B=744
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=2465246
+mem_heap_B=79048
+mem_heap_extra_B=808
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=2470237
+mem_heap_B=79568
+mem_heap_extra_B=888
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=2482609
+mem_heap_B=80040
+mem_heap_extra_B=904
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=2484270
+mem_heap_B=88232
+mem_heap_extra_B=912
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=2505568
+mem_heap_B=88232
+mem_heap_extra_B=912
+mem_stacks_B=0
+heap_tree=detailed
+n5: 88232 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4901939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 8192 0x496C023: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 8192 0x4970015: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+   n1: 8192 0x4970935: std::basic_ifstream<char, std::char_traits<char> >::basic_ifstream(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+    n1: 8192 0x10A833: leer_fila(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<int, std::allocator<int> >&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+     n1: 8192 0x10AA38: lect_costos() (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+      n0: 8192 0x10B93A: main (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+ n1: 5616 0x10DAD3: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+  n1: 5616 0x10D82B: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+   n1: 5616 0x10D5F1: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+    n1: 5616 0x10D196: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+     n2: 5616 0x10CAC0: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+      n1: 5408 0x10DD2C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+       n1: 5408 0x10DC16: void std::_Construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+        n1: 5408 0x10D99F: std::vector<int, std::allocator<int> >* std::__uninitialized_fill_n<false>::__uninit_fill_n<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+         n1: 5408 0x10D76D: std::vector<int, std::allocator<int> >* std::uninitialized_fill_n<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+          n1: 5408 0x10D3F3: std::vector<int, std::allocator<int> >* std::__uninitialized_fill_n_a<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > >&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+           n1: 5408 0x10CD89: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_fill_initialize(unsigned long, std::vector<int, std::allocator<int> > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+            n2: 5408 0x10C679: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::vector(unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+             n1: 2704 0x10BFE5: __static_initialization_and_destruction_0(int, int) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+              n1: 2704 0x10C1B2: _GLOBAL__sub_I_cost_insert (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+               n1: 2704 0x4ACCEBA: call_init (libc-start.c:145)
+                n1: 2704 0x4ACCEBA: __libc_start_main@@GLIBC_2.34 (libc-start.c:379)
+                 n0: 2704 0x10A724: (below main) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+             n1: 2704 0x10C07B: __static_initialization_and_destruction_0(int, int) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+              n1: 2704 0x10C1B2: _GLOBAL__sub_I_cost_insert (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+               n1: 2704 0x4ACCEBA: call_init (libc-start.c:145)
+                n1: 2704 0x4ACCEBA: __libc_start_main@@GLIBC_2.34 (libc-start.c:379)
+                 n0: 2704 0x10A724: (below main) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+      n0: 208 in 1 place, below massif's threshold (1.00%)
+ n1: 1248 0x10DBCC: __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::allocate(unsigned long, void const*) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+  n1: 1248 0x10D91F: std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::allocate(std::allocator<std::vector<int, std::allocator<int> > >&, unsigned long) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+   n1: 1248 0x10D6FF: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_allocate(unsigned long) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+    n1: 1248 0x10D34A: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_create_storage(unsigned long) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+     n1: 1248 0x10CCC2: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_Vector_base(unsigned long, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+      n1: 1248 0x10C662: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::vector(unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+       n0: 1248 in 2 places, all below massif's threshold (1.00%)
+ n0: 472 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=19
+#-----------
+time=2507628
+mem_heap_B=79568
+mem_heap_extra_B=888
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=2512631
+mem_heap_B=80040
+mem_heap_extra_B=904
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=2513101
+mem_heap_B=88232
+mem_heap_extra_B=912
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=2524186
+mem_heap_B=80040
+mem_heap_extra_B=904
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=2527225
+mem_heap_B=88249
+mem_heap_extra_B=935
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=2822646
+mem_heap_B=80057
+mem_heap_extra_B=927
+mem_stacks_B=0
+heap_tree=detailed
+n4: 80057 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4901939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 5616 0x10DAD3: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+  n1: 5616 0x10D82B: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+   n1: 5616 0x10D5F1: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+    n1: 5616 0x10D196: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+     n2: 5616 0x10CAC0: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+      n1: 5408 0x10DD2C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+       n1: 5408 0x10DC16: void std::_Construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+        n1: 5408 0x10D99F: std::vector<int, std::allocator<int> >* std::__uninitialized_fill_n<false>::__uninit_fill_n<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+         n1: 5408 0x10D76D: std::vector<int, std::allocator<int> >* std::uninitialized_fill_n<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+          n1: 5408 0x10D3F3: std::vector<int, std::allocator<int> >* std::__uninitialized_fill_n_a<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > >&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+           n1: 5408 0x10CD89: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_fill_initialize(unsigned long, std::vector<int, std::allocator<int> > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+            n2: 5408 0x10C679: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::vector(unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+             n1: 2704 0x10BFE5: __static_initialization_and_destruction_0(int, int) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+              n1: 2704 0x10C1B2: _GLOBAL__sub_I_cost_insert (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+               n1: 2704 0x4ACCEBA: call_init (libc-start.c:145)
+                n1: 2704 0x4ACCEBA: __libc_start_main@@GLIBC_2.34 (libc-start.c:379)
+                 n0: 2704 0x10A724: (below main) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+             n1: 2704 0x10C07B: __static_initialization_and_destruction_0(int, int) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+              n1: 2704 0x10C1B2: _GLOBAL__sub_I_cost_insert (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+               n1: 2704 0x4ACCEBA: call_init (libc-start.c:145)
+                n1: 2704 0x4ACCEBA: __libc_start_main@@GLIBC_2.34 (libc-start.c:379)
+                 n0: 2704 0x10A724: (below main) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+      n0: 208 in 1 place, below massif's threshold (1.00%)
+ n1: 1248 0x10DBCC: __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::allocate(unsigned long, void const*) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+  n1: 1248 0x10D91F: std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::allocate(std::allocator<std::vector<int, std::allocator<int> > >&, unsigned long) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+   n1: 1248 0x10D6FF: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_allocate(unsigned long) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+    n1: 1248 0x10D34A: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_create_storage(unsigned long) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+     n1: 1248 0x10CCC2: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_Vector_base(unsigned long, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+      n1: 1248 0x10C662: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::vector(unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+       n0: 1248 in 2 places, all below massif's threshold (1.00%)
+ n0: 489 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=25
+#-----------
+time=2825677
+mem_heap_B=88251
+mem_heap_extra_B=933
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=3121098
+mem_heap_B=80059
+mem_heap_extra_B=925
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=3124738
+mem_heap_B=96896
+mem_heap_extra_B=936
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=3136052
+mem_heap_B=96900
+mem_heap_extra_B=956
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=3138141
+mem_heap_B=96896
+mem_heap_extra_B=936
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=3158374
+mem_heap_B=96900
+mem_heap_extra_B=956
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=3162984
+mem_heap_B=97116
+mem_heap_extra_B=1084
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=3167673
+mem_heap_B=97092
+mem_heap_extra_B=964
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=3179999
+mem_heap_B=96936
+mem_heap_extra_B=952
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=3183130
+mem_heap_B=96920
+mem_heap_extra_B=952
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=3292607
+mem_heap_B=96916
+mem_heap_extra_B=956
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=3296355
+mem_heap_B=97072
+mem_heap_extra_B=1040
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=3304236
+mem_heap_B=97052
+mem_heap_extra_B=1004
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=3304908
+mem_heap_B=96992
+mem_heap_extra_B=944
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=3563336
+mem_heap_B=96916
+mem_heap_extra_B=956
+mem_stacks_B=0
+heap_tree=detailed
+n5: 96916 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4901939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 16384 0x496C023: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n3: 16384 0x4970015: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+   n1: 8192 0x4970CBD: std::basic_ofstream<char, std::char_traits<char> >::basic_ofstream(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+    n0: 8192 0x10B9C1: main (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+   n1: 8192 0x4970E05: std::basic_ifstream<char, std::char_traits<char> >::basic_ifstream(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+    n0: 8192 0x10B958: main (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 5636 0x10DAD3: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+  n1: 5636 0x10D82B: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+   n1: 5636 0x10D5F1: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+    n1: 5636 0x10D196: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+     n2: 5636 0x10CAC0: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+      n1: 5408 0x10DD2C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+       n1: 5408 0x10DC16: void std::_Construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+        n1: 5408 0x10D99F: std::vector<int, std::allocator<int> >* std::__uninitialized_fill_n<false>::__uninit_fill_n<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+         n1: 5408 0x10D76D: std::vector<int, std::allocator<int> >* std::uninitialized_fill_n<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+          n1: 5408 0x10D3F3: std::vector<int, std::allocator<int> >* std::__uninitialized_fill_n_a<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > >&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+           n1: 5408 0x10CD89: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_fill_initialize(unsigned long, std::vector<int, std::allocator<int> > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+            n3: 5408 0x10C679: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::vector(unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+             n1: 2704 0x10BFE5: __static_initialization_and_destruction_0(int, int) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+              n1: 2704 0x10C1B2: _GLOBAL__sub_I_cost_insert (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+               n1: 2704 0x4ACCEBA: call_init (libc-start.c:145)
+                n1: 2704 0x4ACCEBA: __libc_start_main@@GLIBC_2.34 (libc-start.c:379)
+                 n0: 2704 0x10A724: (below main) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+             n1: 2704 0x10C07B: __static_initialization_and_destruction_0(int, int) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+              n1: 2704 0x10C1B2: _GLOBAL__sub_I_cost_insert (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+               n1: 2704 0x4ACCEBA: call_init (libc-start.c:145)
+                n1: 2704 0x4ACCEBA: __libc_start_main@@GLIBC_2.34 (libc-start.c:379)
+                 n0: 2704 0x10A724: (below main) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+             n0: 0 in 1 place, below massif's threshold (1.00%)
+      n0: 228 in 2 places, all below massif's threshold (1.00%)
+ n1: 1248 0x10DBCC: __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::allocate(unsigned long, void const*) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+  n1: 1248 0x10D91F: std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::allocate(std::allocator<std::vector<int, std::allocator<int> > >&, unsigned long) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+   n1: 1248 0x10D6FF: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_allocate(unsigned long) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+    n1: 1248 0x10D34A: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_create_storage(unsigned long) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+     n1: 1248 0x10CCC2: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_Vector_base(unsigned long, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+      n1: 1248 0x10C662: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::vector(unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+       n0: 1248 in 3 places, all below massif's threshold (1.00%)
+ n0: 944 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=40
+#-----------
+time=3567807
+mem_heap_B=97116
+mem_heap_extra_B=1068
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=3578301
+mem_heap_B=97096
+mem_heap_extra_B=1032
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=3578973
+mem_heap_B=97036
+mem_heap_extra_B=972
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=63173477815
+mem_heap_B=96952
+mem_heap_extra_B=952
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=63173482501
+mem_heap_B=97552
+mem_heap_extra_B=1064
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=63173486698
+mem_heap_B=97832
+mem_heap_extra_B=1144
+mem_stacks_B=0
+heap_tree=peak
+n5: 97832 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4901939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 16384 0x496C023: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n3: 16384 0x4970015: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+   n1: 8192 0x4970CBD: std::basic_ofstream<char, std::char_traits<char> >::basic_ofstream(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+    n0: 8192 0x10B9C1: main (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+   n1: 8192 0x4970E05: std::basic_ifstream<char, std::char_traits<char> >::basic_ifstream(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+    n0: 8192 0x10B958: main (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 6288 0x10DAD3: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+  n1: 6288 0x10D82B: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+   n1: 6288 0x10D5F1: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+    n1: 6288 0x10D196: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+     n2: 6288 0x10CAC0: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+      n1: 6024 0x10DD2C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+       n1: 6024 0x10DC16: void std::_Construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+        n1: 6024 0x10D99F: std::vector<int, std::allocator<int> >* std::__uninitialized_fill_n<false>::__uninit_fill_n<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+         n1: 6024 0x10D76D: std::vector<int, std::allocator<int> >* std::uninitialized_fill_n<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+          n1: 6024 0x10D3F3: std::vector<int, std::allocator<int> >* std::__uninitialized_fill_n_a<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > >&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+           n1: 6024 0x10CD89: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_fill_initialize(unsigned long, std::vector<int, std::allocator<int> > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+            n3: 6024 0x10C679: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::vector(unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+             n1: 2704 0x10BFE5: __static_initialization_and_destruction_0(int, int) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+              n1: 2704 0x10C1B2: _GLOBAL__sub_I_cost_insert (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+               n1: 2704 0x4ACCEBA: call_init (libc-start.c:145)
+                n1: 2704 0x4ACCEBA: __libc_start_main@@GLIBC_2.34 (libc-start.c:379)
+                 n0: 2704 0x10A724: (below main) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+             n1: 2704 0x10C07B: __static_initialization_and_destruction_0(int, int) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+              n1: 2704 0x10C1B2: _GLOBAL__sub_I_cost_insert (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+               n1: 2704 0x4ACCEBA: call_init (libc-start.c:145)
+                n1: 2704 0x4ACCEBA: __libc_start_main@@GLIBC_2.34 (libc-start.c:379)
+                 n0: 2704 0x10A724: (below main) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+             n0: 616 in 1 place, below massif's threshold (1.00%)
+      n0: 264 in 2 places, all below massif's threshold (1.00%)
+ n1: 1512 0x10DBCC: __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::allocate(unsigned long, void const*) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+  n1: 1512 0x10D91F: std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::allocate(std::allocator<std::vector<int, std::allocator<int> > >&, unsigned long) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+   n1: 1512 0x10D6FF: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_allocate(unsigned long) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+    n1: 1512 0x10D34A: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_create_storage(unsigned long) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+     n1: 1512 0x10CCC2: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_Vector_base(unsigned long, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+      n1: 1512 0x10C662: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::vector(unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+       n0: 1512 in 3 places, all below massif's threshold (1.00%)
+ n0: 944 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=46
+#-----------
+time=63173562622
+mem_heap_B=97720
+mem_heap_extra_B=1112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=63173564638
+mem_heap_B=97216
+mem_heap_extra_B=968
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=63173574324
+mem_heap_B=88704
+mem_heap_extra_B=928
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=63173577917
+mem_heap_B=80040
+mem_heap_extra_B=904
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=63173578964
+mem_heap_B=79464
+mem_heap_extra_B=872
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=63173579636
+mem_heap_B=79152
+mem_heap_extra_B=824
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=63173580308
+mem_heap_B=78840
+mem_heap_extra_B=776
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=63173580980
+mem_heap_B=78528
+mem_heap_extra_B=728
+mem_stacks_B=0
+heap_tree=detailed
+n4: 78528 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4901939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 4576 0x10DAD3: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+  n1: 4576 0x10D82B: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+   n1: 4576 0x10D5F1: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+    n1: 4576 0x10D196: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+     n2: 4576 0x10CAC0: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+      n1: 4368 0x10DD2C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+       n1: 4368 0x10DC16: void std::_Construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+        n1: 4368 0x10D99F: std::vector<int, std::allocator<int> >* std::__uninitialized_fill_n<false>::__uninit_fill_n<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+         n1: 4368 0x10D76D: std::vector<int, std::allocator<int> >* std::uninitialized_fill_n<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+          n1: 4368 0x10D3F3: std::vector<int, std::allocator<int> >* std::__uninitialized_fill_n_a<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > >&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+           n1: 4368 0x10CD89: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_fill_initialize(unsigned long, std::vector<int, std::allocator<int> > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+            n3: 4368 0x10C679: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::vector(unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+             n1: 2704 0x10BFE5: __static_initialization_and_destruction_0(int, int) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+              n1: 2704 0x10C1B2: _GLOBAL__sub_I_cost_insert (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+               n1: 2704 0x4ACCEBA: call_init (libc-start.c:145)
+                n1: 2704 0x4ACCEBA: __libc_start_main@@GLIBC_2.34 (libc-start.c:379)
+                 n0: 2704 0x10A724: (below main) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+             n1: 1664 0x10C07B: __static_initialization_and_destruction_0(int, int) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+              n1: 1664 0x10C1B2: _GLOBAL__sub_I_cost_insert (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+               n1: 1664 0x4ACCEBA: call_init (libc-start.c:145)
+                n1: 1664 0x4ACCEBA: __libc_start_main@@GLIBC_2.34 (libc-start.c:379)
+                 n0: 1664 0x10A724: (below main) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+             n0: 0 in 1 place, below massif's threshold (1.00%)
+      n0: 208 in 2 places, all below massif's threshold (1.00%)
+ n1: 1248 0x10DBCC: __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::allocate(unsigned long, void const*) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+  n1: 1248 0x10D91F: std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::allocate(std::allocator<std::vector<int, std::allocator<int> > >&, unsigned long) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+   n1: 1248 0x10D6FF: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_allocate(unsigned long) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+    n1: 1248 0x10D34A: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_create_storage(unsigned long) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+     n1: 1248 0x10CCC2: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_Vector_base(unsigned long, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+      n1: 1248 0x10C662: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::vector(unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+       n0: 1248 in 3 places, all below massif's threshold (1.00%)
+ n0: 0 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=54
+#-----------
+time=63173581652
+mem_heap_B=78216
+mem_heap_extra_B=680
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=63173582324
+mem_heap_B=77904
+mem_heap_extra_B=632
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=63173582996
+mem_heap_B=77592
+mem_heap_extra_B=584
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=63173583668
+mem_heap_B=77280
+mem_heap_extra_B=536
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=63173584340
+mem_heap_B=76968
+mem_heap_extra_B=488
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=63173585027
+mem_heap_B=76136
+mem_heap_extra_B=448
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=63173585699
+mem_heap_B=75824
+mem_heap_extra_B=400
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=63173586371
+mem_heap_B=75512
+mem_heap_extra_B=352
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=63173587043
+mem_heap_B=75200
+mem_heap_extra_B=304
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=63173587715
+mem_heap_B=74888
+mem_heap_extra_B=256
+mem_stacks_B=0
+heap_tree=detailed
+n3: 74888 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4901939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 1560 0x10DAD3: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+  n1: 1560 0x10D82B: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+   n1: 1560 0x10D5F1: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+    n1: 1560 0x10D196: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+     n2: 1560 0x10CAC0: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+      n1: 1352 0x10DD2C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+       n1: 1352 0x10DC16: void std::_Construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+        n1: 1352 0x10D99F: std::vector<int, std::allocator<int> >* std::__uninitialized_fill_n<false>::__uninit_fill_n<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+         n1: 1352 0x10D76D: std::vector<int, std::allocator<int> >* std::uninitialized_fill_n<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+          n1: 1352 0x10D3F3: std::vector<int, std::allocator<int> >* std::__uninitialized_fill_n_a<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > >&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+           n1: 1352 0x10CD89: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_fill_initialize(unsigned long, std::vector<int, std::allocator<int> > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+            n2: 1352 0x10C679: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::vector(unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+             n1: 1352 0x10BFE5: __static_initialization_and_destruction_0(int, int) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+              n1: 1352 0x10C1B2: _GLOBAL__sub_I_cost_insert (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+               n1: 1352 0x4ACCEBA: call_init (libc-start.c:145)
+                n1: 1352 0x4ACCEBA: __libc_start_main@@GLIBC_2.34 (libc-start.c:379)
+                 n0: 1352 0x10A724: (below main) (in /mnt/c/Users/anton/OneDrive/Escritorio/USM/Algoritmos y Complejidad/ensayo c2/tarea2&3/main)
+             n0: 0 in 2 places, all below massif's threshold (1.00%)
+      n0: 208 in 2 places, all below massif's threshold (1.00%)
+ n0: 624 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=64
+#-----------
+time=63173588387
+mem_heap_B=74576
+mem_heap_extra_B=208
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=63173589059
+mem_heap_B=74264
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=63173589731
+mem_heap_B=73952
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=63173590403
+mem_heap_B=73640
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=63173591014
+mem_heap_B=72808
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=63173603297
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
