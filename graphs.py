@@ -12,7 +12,6 @@ time_fb = [0.00000098, 0.000000526, 0.00000031, 0.000012683, 0.000023866, 6.9867
 time_pd = [0.000004348, 0.000003407, 0.000000752, 0.000002096, 0.00000228, 0.000012911]
 
 fig, ax = plt.subplots(figsize=(12, 6))
-
 x = np.arange(len(casos))  
 
 ax.plot(x, time_fb, label='Fuerza Bruta', marker='o', color='blue', linewidth=2)
